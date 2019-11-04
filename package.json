@@ -1,0 +1,19 @@
+{
+  "name": "@vitawallet/vita-wallet-payment-gateway",
+  "version": "0.0.1",
+  "description": "Payment gateway of VitaWallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghabrielv/vita-wallet-payment-gateway.git"
+  },
+  "author": "Ghabriel Villarreal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghabrielv/vita-wallet-payment-gateway/issues"
+  },
+  "homepage": "https://github.com/ghabrielv/vita-wallet-payment-gateway#readme"
+}
