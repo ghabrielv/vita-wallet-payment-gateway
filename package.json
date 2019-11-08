@@ -1,6 +1,6 @@
 {
   "name": "@vitawallet/vita-wallet-payment-gateway",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Payment gateway of VitaWallet",
   "main": "index.js",
   "scripts": {
