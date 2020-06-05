@@ -16,7 +16,7 @@ In a browser:
 
 Using npm:
 ```shell
-$ npm install --save vita-wallet-payment-gateway
+$ npm install --save @vitawallet/vita-wallet-payment-gateway
 ```
 
 In Node.js:
@@ -26,18 +26,17 @@ var paymentGateway = require('vita-wallet-payment-gateway');
 
 In ReactJS:
 ```js
-import { paymentGateway } from "vita-wallet-payment-gateway";
+import { paymentGateway } from '@vitawallet/vita-wallet-payment-gateway';
 ```
 
 ## How to use?
 
 Example in ReactJS:
 ```js
-<Button
-className="btn-green"
+<button
 onClick={() => paymentGateway(email, amount, ENV)}>
     Pagar con VitaWallet
-</Button>
+</button>
 ```
 
 ## Arguments
