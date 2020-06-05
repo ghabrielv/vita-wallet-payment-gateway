@@ -21,7 +21,7 @@ $ npm install --save @vitawallet/vita-wallet-payment-gateway
 
 In Node.js:
 ```js
-var paymentGateway = require('vita-wallet-payment-gateway');
+var paymentGateway = require('@vitawallet/vita-wallet-payment-gateway');
 ```
 
 In ReactJS:
