@@ -34,7 +34,7 @@ import { paymentGateway } from '@vitawallet/vita-wallet-payment-gateway';
 Example in ReactJS:
 ```js
 <button
-onClick={() => paymentGateway(email, amount, ENV)}>
+onClick={() => paymentGateway(email, amount, ENV, token)}>
     Pagar con VitaWallet
 </button>
 ```
@@ -46,3 +46,4 @@ These are the arguments available on the payment button.
  * email -> Your email address in VitaWallet. Ex: 'soporte@vitawallet.io'
  * amount -> Payment amount. Ex: 100.
  * env -> Enviroment 'qa' or 'prod'. (optional)
+ * token -> Token identification of the transaction. (optional)
