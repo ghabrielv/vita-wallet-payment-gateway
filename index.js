@@ -18,7 +18,7 @@ exports.paymentGateway = function(email, amount = undefined, env = undefined, to
 	}
 	var params = email + (amount ? '?amount=' + amount : '') + (token ? '?token=' + token : '');
 	var url = (env == 'prod' || env == 'qa') ? 'https://' + (env == 'prod' ? 'app.vitawallet.io' : 'qa.vitawallet.io') + '/payment-gateway/' + params : 'http://localhost:' + port + '/payment-gateway/' + params;
-	newWindow = window.open(url,'Pasarela de pago','width=1024,height=768,toolbar=0,menubar=0');  
+	newWindow = window.open(url,'Pasarela de pago','width=1024,height=768,toolbar=0,menubar=0');
 	if (window.focus) {
 		newWindow.focus();
 	}
